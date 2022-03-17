@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+}
+header {
+    background-color: #f2f2f2;
+    height: 70px;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #000
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oldalak ul{
+    display: flex;
+    
+    
+}
+
+.oldalak ul li{
+    list-style: none;
+}
+
+
+.oldalak ul li a{
+padding: 20px;
+text-decoration: none;
+text-transform: uppercase;
+
+}
+.oldalak ul li a:visited{
+    color: #000;
+}
+
+.oldalak ul li a:hover{
+    color: #00BF6F;
+}
+.lang{
+    padding-left: 100px;
+}
+.lang a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.lang a:visited{
+    color: #000;
+}
+ .lang a.active{
+    color: #00BF6F;
+ }

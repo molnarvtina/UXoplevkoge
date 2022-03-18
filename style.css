@@ -99,6 +99,10 @@ text-transform: uppercase;
     border-radius: 50px;
 }
 
+.bannercard .btn{
+    margin-top: 150px;
+}
+
 .submenu{
     display: flex;
     justify-content: space-around;
@@ -119,5 +123,62 @@ text-transform: uppercase;
     color: #00BF6F;
 }
 
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
 
+section img{
+    width: 100%;
+}
+
+section .image{
+    flex-basis: 50%;
+}
+
+section .text div{
+    display: flex;
+    justify-content: center;
+
+}
+
+section .text h3{
+padding-left: 100px;
+text-align: center;
+font-size: 23px;
+}
+
+section .text ul{
+    list-style: none;
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 2;
+
+}
+
+section .text ul li::before {
+    content: "•";
+    color: #00BF6F;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+
+}
+
+section .text{
+    flex-basis: 30%;
+}
+
+section .booking{
+    background-color: #00BF6F;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
 

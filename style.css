@@ -144,9 +144,11 @@ section .text div{
 }
 
 section .text h3{
+    font-family: 'Lato', sans-serif;
 padding-left: 100px;
 text-align: center;
 font-size: 23px;
+line-height: 1.5;
 }
 
 section .text ul{
@@ -168,7 +170,10 @@ section .text ul li::before {
 }
 
 section .text{
-    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 section .booking{
@@ -180,5 +185,9 @@ section .booking{
     margin: 10px;
     border-radius: 50px;
     text-transform: uppercase;
+}
+
+.booking{
+    margin-top: 50px;
 }
 

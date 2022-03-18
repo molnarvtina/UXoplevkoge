@@ -3,6 +3,7 @@
 
 *{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header {
     background-color: #f2f2f2;
@@ -36,6 +37,7 @@ nav {
 
 .oldalak ul li{
     list-style: none;
+    padding-top: 15px;
 }
 
 
@@ -54,6 +56,7 @@ text-transform: uppercase;
 }
 .lang{
     padding-left: 100px;
+    padding-top: 10px;
 }
 .lang a {
     text-decoration: none;
@@ -63,6 +66,58 @@ text-transform: uppercase;
 .lang a:visited{
     color: #000;
 }
- .lang a.active{
+.lang a.active{
     color: #00BF6F;
- }
+}
+
+.bannercard{
+    position: relative;
+}
+
+.bannercard img{
+    width: 100%;
+}
+
+.bannercard .bannertext{
+    position: absolute;
+    top: 9%;
+    left: 60px;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.bannercard .button{
+    background-color: #fff;
+    padding: 20px 35px;
+    text-decoration: none;
+    color: #444444;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.submenu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #444444;
+    font-size: 30px;
+    margin: 35px auto;
+}
+
+.submenu a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 0;
+    
+}
+
+.submenu .hotelrating{
+    color: #00BF6F;
+}
+
+
+

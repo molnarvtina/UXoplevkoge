@@ -119,7 +119,7 @@ color: #000;
     color: #00BF6F;
 }
 
-section{
+.strand{
     display: flex;
     justify-content: center;
     margin-top: 70px;
@@ -196,7 +196,11 @@ section .reviews-button{
     border-color: #444444;
     border: solid;
     border-width: 2px;
+    cursor: pointer;
 
+}
+section .reviews-button:hover{
+    ---
 }
 
 .booking{
@@ -206,12 +210,13 @@ section .reviews-button{
 .reviews {
     width: 90%;
     margin: 10px auto;
+    
 
 }
 
 .carousel {
     border: 2px solid #ccc;
-    height: 400px;
+    height: 200px;
     position: relative;
 
 }
@@ -236,10 +241,14 @@ section .reviews-button{
     cursor: pointer;
 }
 
-.arrow .left {
+.arrow-left {
     left: 10px;
 }
 
-.arrow .right {
+.arrow-right {
     right: 10px;
+}
+
+.not-displayed{
+    display: none;
 }

@@ -188,7 +188,7 @@ section .booking{
     text-transform: uppercase;
 }
 
-section .reviews{
+section .reviews-button{
     background-color: #fff;
     padding: 15px 40px;
     text-decoration: none;
@@ -206,4 +206,44 @@ section .reviews{
 .booking{
     margin-top: 50px;
 }
+/* tutorial */
+.reviews {
+    width: 90%;
+    margin: 10px auto;
 
+}
+
+.carousel {
+    border: 2px solid #ccc;
+    height: 400px;
+    position: relative;
+
+}
+
+.slider {
+    height: 100%;
+    display: flex;
+    width: 400%;
+    /* border: 1px solid red; --- to see the full div */
+}
+
+.slider section {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls .arrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.arrow .left {
+    left: 10px;
+}
+
+.arrow .right {
+    right: 10px;
+}

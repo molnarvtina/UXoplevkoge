@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -199,8 +199,11 @@ section .reviews-button{
     cursor: pointer;
 
 }
-section .reviews-button:hover{
-    ---
+.reviews-button:hover{
+    color: #fff;
+    background-color: #444444;
+    transition: 0.5s;
+    
 }
 
 .booking{
@@ -218,6 +221,9 @@ section .reviews-button:hover{
     border: 2px solid #ccc;
     height: 200px;
     position: relative;
+    overflow: hidden;
+    width: 700px;
+    margin: 20px auto;
 
 }
 
